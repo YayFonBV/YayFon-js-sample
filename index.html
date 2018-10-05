@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>YayFon</title>
+    <script defer src="./node_modules/@yayfon/yayfon-js-sdk/lib/index.js"></script>
+    <script defer src="./jssip-3.0.15.js"></script>
+    <script defer src="index.js"></script>
+    <script defer src="DetectRTC.js"></script>
+</head>
+<body>
+<audio id="remoteAudio"></audio>
+<input id="username" placeholder="Username">
+<input id="password" placeholder="Password">
+<button id="login" onclick="login()">Login</button>
+<button id="call" onclick="call(document.getElementById('extension').value)" style="display: none">Call</button>
+<button id="decline" onclick="decline()" style="display: none">Decline</button>
+<button id="answer" onclick="answer()" style="display: none">Answer</button>
+<input id="extension" placeholder="Extension" style="display: none">
+<button id="blindTransfer" onclick="blindTransfer(document.getElementById('extension').value)" style="display: none">Blind transfer</button>
+<button id="attendedTransfer" onclick="attendedTransfer(document.getElementById('extension').value)" style="display: none">Attended transfer</button>
+<button id="confirmTransfer" onclick="confirmTransfer()" style="display: none">Confirm transfer</button>
+</body>
+</html>
