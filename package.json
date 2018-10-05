@@ -2,7 +2,7 @@
   "name": "examples",
   "version": "0.0.1",
   "dependencies": {
-    "@yayfon/yayfon-js-sdk": "^1.0.15",
+    "@yayfon/yayfon-js-sdk": "^1.0.1",
     "jssip": "^3.2.11"
   }
 }
