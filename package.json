@@ -2,6 +2,6 @@
   "name": "examples",
   "version": "0.0.1",
   "dependencies": {
-    "@yayfon/yayfon-js-sdk": "1.0.3"
+    "@yayfon/yayfon-js-sdk": "1.0.4"
   }
 }
